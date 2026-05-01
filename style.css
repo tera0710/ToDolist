@@ -158,6 +158,7 @@ li:hover {
 
     #taskInput {
         width: 90%;
+        margin: 5px 0;
     }
 
     #dayInput {
