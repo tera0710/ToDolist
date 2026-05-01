@@ -1,15 +1,15 @@
-:root{
-    --col : #1b1b1b;
-    --bodyback : #e1e4e8fc;
-    --conback : rgba(193, 197, 221, 0.3);
-    --shadow : rgba(0, 0, 0, 0.2);
+:root {
+    --col: #1b1b1b;
+    --bodyback: #e1e4e8fc;
+    --conback: rgba(193, 197, 221, 0.3);
+    --shadow: rgba(0, 0, 0, 0.2);
 }
 
-body.dark{
-    --col : #e4e4e4;
-    --bodyback : #282828;
-    --conback : rgba(76, 76, 76, 0.7);
-    --shadow : rgba(231, 231, 231, 0.2);
+body.dark {
+    --col: #e4e4e4;
+    --bodyback: #282828;
+    --conback: rgba(76, 76, 76, 0.7);
+    --shadow: rgba(231, 231, 231, 0.2);
     transition: background 0.6s ease;
 }
 
@@ -39,9 +39,9 @@ body {
     position: relative;
 }
 
-#tggledark{
+#tggledark {
     position: absolute;
-    top:5%;
+    top: 5%;
     left: 5%;
     width: 100px;
     height: 50px;
@@ -55,7 +55,7 @@ body {
     transition: 0.1s;
 }
 
-#tggledark:hover{
+#tggledark:hover {
     box-shadow: none;
 }
 
@@ -129,7 +129,7 @@ li {
 
 li:hover {
     transform: scale(1.02);
-    box-shadow:var(--shadow) 0 1px 4px;
+    box-shadow: var(--shadow) 0 1px 4px;
 }
 
 .completed {
@@ -167,6 +167,11 @@ li:hover {
     button {
         display: block;
         margin: 10px auto;
+    }
+
+    #tggledark {
+        width: 70px;
+        height: 40px;
     }
 
 }
