@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDolist</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div id="tggledark">dark</div>
+
+        <h1>ToDoリスト</h1>
+
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="やることを入力">
+            <input type="text" id="dayInput" placeholder="期限を入力">
+            <button onclick="addTask()">追加</button>
+        </div>
+
+
+
+        <ul id="taskList">
+            <div>
+                <p>タスク</p>
+                <p>期限</p>
+            </div>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
